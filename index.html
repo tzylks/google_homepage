@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<style>
+    img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 15%;
+        }
+    .search {
+        padding-left: 37%;
+        width: 50px;
+        padding-top:20px;
+        
+    }
+    .search input{
+        width: 500px;
+        border-radius: 25px;
+        height:25px;
+        
+    }
+    #button {
+        position: fixed;
+      
+    }
+
+    #button2 {
+        position: fixed;
+        float: right;
+    }
+
+    .topnav {
+        font-family: arial;
+        font-size: 16px;
+        color: black;
+        text-decoration: none;
+        padding-left: 14px;
+        padding-top: 10px;
+        display: block;
+    }
+    a:link {
+        color: black;
+        text-decoration: none;
+        padding-left: 10px;
+        font-size: 13px;
+    }
+
+    #topright {
+        float: right;
+        padding-right: 50px;
+    }
+
+    #buttonboy {
+        float: right;
+        background-color: blue;
+        color: white;
+        border-radius: 20px;
+        height: 50px;
+        width: 100px;
+    }
+    .bottomnav {
+        bottom: 0;
+        position: fixed;
+        background-color: gainsboro;
+        width: 9000px;
+        margin:0em;
+        font-family: Arial, Helvetica, sans-serif;
+        color: lightgrey;
+    }
+    .bottomright {
+        bottom: 0;
+        position: fixed;
+        right: 0;
+        background-color: gainsboro;
+       
+        
+    }
+</style>
+<html>
+<body> 
+
+   <div class="topnav">
+       <a class="active" href="#about">About</a>
+       <a href="#store">Store</a>
+       <button id="buttonboy" type="submit">Sign In</button>
+       <a id="topright" href="#gmail">Images</a>
+       <a id="topright" href="images">Gmail</a>
+       
+    </div>
+    <div id="logo"> 
+        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="google">
+    </div>
+
+    <div class="search">
+        <form action="/action_page.php"></form>
+        <input type="text" placeholder=" " name="search">
+        <button type="submit" id="button">Google Search</button>
+        <button type="submit" id="button2">I'm Feeling Lucky</button>
+        </form>
+    </div>
+
+    <div class="bottomnav">
+        <a href="Advertising">Advertising</a>
+        <a href="Business">Business</a>
+        <a href="How Search Works">How Search Works</a>
+    </div>
+    
+    <div class="bottomright">
+        <a href="Privacy">Privacy</a>
+        <a href="Terms">Terms</a>
+        <a href="Settings">Settings</a>
+    </div>
+
+    <div id="bottomcontainer">
+    </div>
+
+   
+</body>
+</html>
